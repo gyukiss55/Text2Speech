@@ -1,0 +1,172 @@
+en, significant
+hu, jelentős
+en, doubt
+hu, kétség
+en, no doubt
+hu, nincs kétség
+en, sufficient
+hu, elégséges megfelelő
+en, qualifier
+hu, minőség
+en, filthy
+hu, mocskos
+en, utterly
+hu, teljesen
+en, to be sacked
+hu, kirugatva
+en, exceptional
+hu, kivételes
+en, wealthy
+hu, gazdag
+en, despite this
+hu, ennek ellenére
+en, hold onto
+hu, ragaszkodni
+en, floods
+hu, áradások
+en, vulcanic eruption
+hu, vulkán kitörés
+en, classify
+hu, rendszerez
+en, derail
+hu, kisiklik
+en, molten
+hu, olvadás
+en, pyroclastic
+hu, piroklasztikus, vulkán kitörési folyamat
+en, blizzard
+hu, hóvihar
+en, avalanche
+hu, lavina
+en, hailstone
+hu, jégeső
+en, destructive
+hu, romboló
+en, stream
+hu, folyó
+en, severe
+hu, súlyos
+en, sweep away
+hu, eltöröl elsöpör
+en, pavement
+hu, járda
+en, rip
+hu, kicsavar
+en, for the ride
+hu, útra vonni
+en, gathered
+hu, összegyült
+en, whirl
+hu, örvény
+en, Her life was one long whirl of parties
+hu, Élete bulik hosszú örvénye volt
+en, whirl
+hu, örvény
+en, consume
+hu, fogyaszt
+en, last
+hu, kitart eltart
+en, void
+hu, elkerül
+en, rare
+hu, ritka
+en, hail
+hu, jégeső
+en, a hail of abuse
+hu, Visszaélések jégesője
+en, hail
+hu, jégeső
+en, uncommon
+hu, nem általános, szokatlan
+en, raindrop
+hu, esőcseppek
+en, She listened to the raindrops pattering on the tin roof.
+hu, Hallgatta a bádogtetőn kopogó esőcseppeket.
+en, raindrop
+hu, esőcseppek
+en, likely
+hu, valószínű
+en, The beetles are likely to cause damage
+hu, A bogarak valószínűleg kárt okoznak
+en, likely
+hu, valószínű
+en, crash down
+hu, lezúdul
+en, The waves crashed down against the rocky shoreline with a deafening roar
+hu, A hullámok fülsiketítő üvöltéssel csapódtak le a sziklás partvonalnak
+en, crash down
+hu, lezúdul
+en, knock down
+hu, lerombol
+en, She was knocked down by a bus
+hu, Leütötte egy busz
+en, He knocked his opponent down three times in the first round.
+hu, Az első menetben háromszor kiütötte ellenfelét.
+en, knock down
+hu, lerombol
+en, carry away
+hu, magával visz
+en, The wind was so strong it threatened to carry away the picnic table.
+hu, A szél olyan erős volt, hogy a piknikasztal elhordásával fenyegetett.
+en, carry away
+hu, magával visz
+en, destroy
+hu, pusztit, rombol
+en, landslide
+hu, földcsuszamlás
+en, The house was buried beneath a landslide
+hu, A házat földcsuszamlás temette el
+en, landslide
+hu, földcsuszamlás
+en, drought
+hu, aszály szárazság
+en, Farmers are facing ruin after two years of severe drought
+hu, A gazdálkodók tönkremennek a két év súlyos aszály után
+en, drought
+hu, aszály szárazság
+en, tidal wave
+hu, nagy hullám
+en, famine
+hu, éhinség
+en, peak
+hu, csúcs
+en, measure
+hu, mér
+en, fault lines
+hu, törésvonal
+en, magnitude
+hu, magasság nagyság
+en, width
+hu, szélesség
+en, aftershock
+hu, utórengés
+en, as for
+hu, ami azt illeti
+en, casuality 
+hu, veszteség
+en, crust
+hu, földkéreg
+en, havoc 
+hu, katasztrófa
+en, organization
+hu, szervezet
+en, ranger
+hu, vadőr
+en, warning
+hu, figyelmeztetés
+en, play havoc
+hu, pusztítást végez
+en, wreck
+hu, rombol
+en, humble
+hu, alázatos
+en, red cross
+hu, vörös kereszt
+en, autherity
+hu, hatóság
+en, issue
+hu, megjelentet
+en, a report issued by the Department for Education
+hu, az Oktatási Minisztérium által kiadott jelentés
+en, issue
+hu, megjelentet
