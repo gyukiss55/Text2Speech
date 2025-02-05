@@ -7,23 +7,72 @@
 #include <vector>
 #include <string>
 #include <map>
+#include <windows.h>
+
+#include <stdexcept>
 
 namespace fs = std::filesystem;
 
-int EnumerateCurrentDirectory() {
-    std::string path = "E:\\Work\\GitHub\\_MyGit\\Python_TTS_Test1\\Python_TTS_Test1\\inputMP3"; // Current directory
-    std::string m1 = "m1.mp3"; // Current directory
-    std::string m2 = "m2.mp3";
 
-    std::vector<std::string> fileNames;
+std::string wstringToUtf8(const std::wstring& wstr) {
+    if (wstr.empty()) return std::string();
+
+
+    int sizeNeeded = WideCharToMultiByte(CP_UTF8, 0, wstr.data(), static_cast<int>(wstr.size()),
+        nullptr, 0, nullptr, nullptr);
+    if (sizeNeeded <= 0) {
+        throw std::runtime_error("Conversion failed");
+    }
+
+    std::string utf8Str(sizeNeeded, 0);
+    WideCharToMultiByte(CP_UTF8, 0, wstr.data(), static_cast<int>(wstr.size()),
+        &utf8Str[0], sizeNeeded, nullptr, nullptr);
+    return utf8Str;
+}
+
+std::wstring utf8ToWString(const std::string& utf8Str)
+{
+    if (utf8Str.empty())
+        return std::wstring();
+
+    // Get the length of the wide string (in wchar_t's), including the null terminator.
+    int wcharsNeeded = MultiByteToWideChar(CP_UTF8, 0, utf8Str.c_str(), -1, nullptr, 0);
+    if (wcharsNeeded == 0)
+    {
+        throw std::runtime_error("MultiByteToWideChar failed to get buffer size.");
+    }
+
+    // Create a wstring of the required size.
+    // The resulting string will include a null terminator at the end.
+    std::wstring wstr(wcharsNeeded, L'\0');
+
+    // Do the actual conversion.
+    int result = MultiByteToWideChar(CP_UTF8, 0, utf8Str.c_str(), -1, &wstr[0], wcharsNeeded);
+    if (result == 0)
+    {
+        throw std::runtime_error("MultiByteToWideChar failed to convert string.");
+    }
+
+    // Remove the null terminator added by MultiByteToWideChar.
+    wstr.resize(wcharsNeeded - 1);
+    return wstr;
+}
+
+int EnumerateCurrentDirectory(char * str) {
+    std::cout << "work path: " << str << std::endl;
+    std::wstring path = utf8ToWString (str); // work directory
+    std::wstring m1 = L"m1.mp3"; // file1 directory
+    std::wstring m2 = L"m2.mp3"; // file2 directory
+
+    std::vector<std::wstring> fileNames;
     std::vector<int> fileIndeces;
     std::map<int, size_t> indexOrder;
     try {
-        for (const auto& entry : fs::directory_iterator(path)) {
-            std::string path1 = entry.path().string();
+        for (const auto& entry : fs::directory_iterator(wstringToUtf8(path))) {
+            std::wstring path1 = entry.path().wstring();
             size_t pos = path1.find_last_of('w');
-            std::string fn1 = path1.substr(pos + 2);
-            std::cout << fn1 << std::endl;
+            std::wstring fn1 = path1.substr(pos + 2);
+            std::wcout << fn1 << std::endl;
             int num = std::stoi(fn1);
             indexOrder[num] = fileIndeces.size();
             fileIndeces.push_back(num);
@@ -31,23 +80,23 @@ int EnumerateCurrentDirectory() {
             std::cout << num << ". " << entry.path() << std::endl;
         }
         for (int i = 2; i <= indexOrder.size(); i+=2) {
-            std::cout << i << ". " << fileNames[indexOrder[i]] << std::endl;
-            std::string command = "copy /b ";
+            std::wcout << i << L". " << fileNames[indexOrder[i]] << std::endl;
+            std::wstring command = L"copy /b ";
             if (i != 2) {
-                command += path + "\\" + m1 + " + ";
+                command += path + L"\\" + m1 + L" + ";
             }
-            command += fileNames[indexOrder[i]] + " + " + fileNames[indexOrder[i - 1]] + " " + path + "\\" + m2;
-            std::cout << "command:" << command << std::endl;
-            int result = system(command.c_str());
+            command += fileNames[indexOrder[i]] + L" + " + fileNames[indexOrder[i - 1]] + L" " + path + L"\\" + m2;
+            std::wcout << L"command:" << command << std::endl;
+            int result = system(wstringToUtf8(command).c_str());
             if (result == 0) {
                 //std::cout << "Files merged successfully!" << std::endl;
             }
             else {
                 std::cerr << "Error executing command." << std::endl;
             }
-            command = "copy /b " + path + "\\" + m2 + " " + path + "\\" + m1;
-            std::cout << "command:" << command << std::endl;
-            result = system(command.c_str());
+            command = L"copy /b " + path + L"\\" + m2 + L" " + path + L"\\" + m1;
+            std::wcout << L"command:" << command << std::endl;
+            result = system(wstringToUtf8(command).c_str());
             if (result == 0) {
                 //std::cout << "Files merged successfully!" << std::endl;
             }
@@ -63,7 +112,7 @@ int EnumerateCurrentDirectory() {
     return 0;
 }
 
-
+/*
 int mergeFiles() {
     // Define the DOS command
     const char* command = "copy /b 1.mp3+2.mp3 r.mp3";
@@ -81,20 +130,14 @@ int mergeFiles() {
 
     return 0;
 }
+*/
 
-int main()
+
+int main(int argc, char* argv[])
 {
-    std::cout << "Hello merge Files!\n";
-    EnumerateCurrentDirectory();
+    if (argc !=2)
+        std::cout << "Usage: " << argv[0] << " <workFolder> \n";
+    else
+        EnumerateCurrentDirectory(argv[1]);
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

@@ -1,5 +1,6 @@
 from gtts import gTTS
 import os
+import argparse
 import playsound
 
 def speakToFile(text, fn="en.mp3", lang='en'):
@@ -26,13 +27,15 @@ def test1(index):
     lang_hun = 'hu'
     speakToFile(sample_text,fileNameHun,lang_hun)
     
-def mp3Write(index, lang, text):
-    fileName = f"inputMP3\\w_{index}_{lang}.mp3"
+def mp3Write(workFolderName, index, lang, text):
+    fileName = f"{workFolderName}\\w_{index}_{lang}.mp3"
     speakToFile (text,fileName,lang)
-
-if __name__ == "__main__":
+    
+def generateMP3Files (textFileName, workFolderName) : 
+    print (f"textFileName:{textFileName}")
+    print (f"workFolderName:{workFolderName}")
     # mp3Write(0,'hu',"veszteség")
-    with open('inputMP3.txt', 'r', encoding='utf-8') as file:
+    with open(textFileName, 'r', encoding='utf-8') as file:
         content = file.read()
         lines = content.splitlines()
         cnt = 1
@@ -40,7 +43,7 @@ if __name__ == "__main__":
         for line in lines:
             lang = line[0:2]
             txt = line[4:100]
-            fn = f"w_{cnt}_{lang}.mp3"
+            fn = f"{workFolderName}\\w_{cnt}_{lang}.mp3"
             
             print(f"fn:{fn}")
             print(f"text:\"{txt}\"")
@@ -49,6 +52,46 @@ if __name__ == "__main__":
             
             # decode_string =  txt.decode('utf-8');
             
-            mp3Write(cnt, lang, txt)
+            mp3Write(workFolderName, cnt, lang, txt)
             cnt = cnt + 1
+            
+def main():
+    
+    # Create the parser
+    parser = argparse.ArgumentParser(
+        description="A script that demonstrates command-line argument handling using argparse."
+    )
+    
+    # Add positional arguments
+    parser.add_argument(
+        "input", 
+        help="The input file or string"
+    )
+    
+    # Add optional arguments (flags)
+    parser.add_argument(
+        "-o", "--output", 
+        help="The output file", 
+        default="default_output.txt"
+    )
+    
+    # Add a flag (boolean option)
+    parser.add_argument(
+        "-v", "--verbose", 
+        help="Increase output verbosity", 
+        action="store_true"
+    )
+    
+    # Parse the arguments
+    args = parser.parse_args()
 
+    # Access the arguments
+    if args.verbose:
+        print("Verbose mode is enabled.")
+    print(f"Input: {args.input}")
+    print(f"Output: {args.output}")
+    generateMP3Files (args.input, args.output)
+  
+
+if __name__ == '__main__':
+    main()
