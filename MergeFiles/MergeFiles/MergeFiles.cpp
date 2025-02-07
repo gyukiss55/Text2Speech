@@ -6,13 +6,14 @@
 #include <filesystem>
 #include <vector>
 #include <string>
+#include <fstream>
 #include <map>
 #include <windows.h>
 
 #include <stdexcept>
 
 namespace fs = std::filesystem;
-
+std::vector<char> buffer;
 
 std::string wstringToUtf8(const std::wstring& wstr) {
     if (wstr.empty()) return std::string();
@@ -58,11 +59,44 @@ std::wstring utf8ToWString(const std::string& utf8Str)
     return wstr;
 }
 
-int EnumerateCurrentDirectory(char * str) {
-    std::cout << "work path: " << str << std::endl;
-    std::wstring path = utf8ToWString (str); // work directory
+int MergeFile(std::string inputFn, std::ofstream&  outFileStream)
+{
+    std::ifstream inFileStream(inputFn, std::ios::binary);
+    if (!inFileStream) {
+        std::cerr << "Error opening file for reading: " << inputFn << std::endl;
+        return 1;
+    }
+    // Determine the file size by seeking to the end
+    inFileStream.seekg(0, std::ios::end);
+    std::streamsize size = inFileStream.tellg();
+    inFileStream.seekg(0, std::ios::beg);
+
+    // Resize the buffer to hold the file content
+    buffer.resize(static_cast<size_t>(size));
+
+    // Read the file content into the buffer
+    if (!inFileStream.read(buffer.data(), size)) {
+        std::cerr << "Error reading data from file." << std::endl;
+        return 1;
+    }
+    // Close the input file
+    inFileStream.close();
+
+    outFileStream.write(buffer.data(), buffer.size());
+    if (!outFileStream) {
+        std::cerr << "Error writing data to copy file." << std::endl;
+        return 1;
+    }
+
+    return 0;
+}
+
+int EnumerateCurrentDirectory(char * workFolder) {
+    std::cout << "work path: " << workFolder << std::endl;
+    std::wstring path = utf8ToWString (workFolder); // work directory
     std::wstring m1 = L"m1.mp3"; // file1 directory
     std::wstring m2 = L"m2.mp3"; // file2 directory
+    std::string destFileName = workFolder + std::string("\\result.mp3"); // file2 directory
 
     std::vector<std::wstring> fileNames;
     std::vector<int> fileIndeces;
@@ -71,6 +105,8 @@ int EnumerateCurrentDirectory(char * str) {
         for (const auto& entry : fs::directory_iterator(wstringToUtf8(path))) {
             std::wstring path1 = entry.path().wstring();
             size_t pos = path1.find_last_of('w');
+            if (pos > path1.length() || (path1.substr(pos + 2)[0]) < L'0' || (path1.substr(pos + 2)[0]) > L'9')
+                continue;
             std::wstring fn1 = path1.substr(pos + 2);
             std::wcout << fn1 << std::endl;
             int num = std::stoi(fn1);
@@ -79,31 +115,13 @@ int EnumerateCurrentDirectory(char * str) {
             fileNames.push_back(path1);
             std::cout << num << ". " << entry.path() << std::endl;
         }
+        std::ofstream  outFileStream(destFileName, std::ios::binary);
         for (int i = 2; i <= indexOrder.size(); i+=2) {
             std::wcout << i << L". " << fileNames[indexOrder[i]] << std::endl;
-            std::wstring command = L"copy /b ";
-            if (i != 2) {
-                command += path + L"\\" + m1 + L" + ";
-            }
-            command += fileNames[indexOrder[i]] + L" + " + fileNames[indexOrder[i - 1]] + L" " + path + L"\\" + m2;
-            std::wcout << L"command:" << command << std::endl;
-            int result = system(wstringToUtf8(command).c_str());
-            if (result == 0) {
-                //std::cout << "Files merged successfully!" << std::endl;
-            }
-            else {
-                std::cerr << "Error executing command." << std::endl;
-            }
-            command = L"copy /b " + path + L"\\" + m2 + L" " + path + L"\\" + m1;
-            std::wcout << L"command:" << command << std::endl;
-            result = system(wstringToUtf8(command).c_str());
-            if (result == 0) {
-                //std::cout << "Files merged successfully!" << std::endl;
-            }
-            else {
-                std::cerr << "Error executing command." << std::endl;
-            }
+            MergeFile(wstringToUtf8(fileNames[indexOrder[i]]), outFileStream);
+            MergeFile(wstringToUtf8(fileNames[indexOrder[i - 1]]), outFileStream);
         }
+        outFileStream.close();
     }
     catch (const std::filesystem::filesystem_error& e) {
         std::cerr << "Error: " << e.what() << std::endl;
@@ -111,26 +129,6 @@ int EnumerateCurrentDirectory(char * str) {
 
     return 0;
 }
-
-/*
-int mergeFiles() {
-    // Define the DOS command
-    const char* command = "copy /b 1.mp3+2.mp3 r.mp3";
-
-    // Execute the command
-    int result = system(command);
-
-    // Check if the command executed successfully
-    if (result == 0) {
-        std::cout << "Files merged successfully!" << std::endl;
-    }
-    else {
-        std::cerr << "Error executing command." << std::endl;
-    }
-
-    return 0;
-}
-*/
 
 
 int main(int argc, char* argv[])

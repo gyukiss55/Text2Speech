@@ -1,172 +1,158 @@
-en, significant
-hu, jelentős
-en, doubt
-hu, kétség
-en, no doubt
-hu, nincs kétség
-en, sufficient
-hu, elégséges megfelelő
-en, qualifier
-hu, minőség
-en, filthy
-hu, mocskos
-en, utterly
-hu, teljesen
-en, to be sacked
-hu, kirugatva
-en, exceptional
-hu, kivételes
-en, wealthy
-hu, gazdag
-en, despite this
-hu, ennek ellenére
-en, hold onto
-hu, ragaszkodni
-en, floods
-hu, áradások
-en, vulcanic eruption
-hu, vulkán kitörés
-en, classify
-hu, rendszerez
-en, derail
-hu, kisiklik
-en, molten
-hu, olvadás
-en, pyroclastic
-hu, piroklasztikus, vulkán kitörési folyamat
-en, blizzard
-hu, hóvihar
-en, avalanche
-hu, lavina
-en, hailstone
-hu, jégeső
-en, destructive
-hu, romboló
-en, stream
-hu, folyó
-en, severe
-hu, súlyos
-en, sweep away
-hu, eltöröl elsöpör
-en, pavement
-hu, járda
-en, rip
-hu, kicsavar
-en, for the ride
-hu, útra vonni
-en, gathered
-hu, összegyült
-en, whirl
-hu, örvény
-en, Her life was one long whirl of parties
-hu, Élete bulik hosszú örvénye volt
-en, whirl
-hu, örvény
-en, consume
-hu, fogyaszt
-en, last
-hu, kitart eltart
-en, void
-hu, elkerül
-en, rare
-hu, ritka
-en, hail
-hu, jégeső
-en, a hail of abuse
-hu, Visszaélések jégesője
-en, hail
-hu, jégeső
-en, uncommon
-hu, nem általános, szokatlan
-en, raindrop
-hu, esőcseppek
-en, She listened to the raindrops pattering on the tin roof.
-hu, Hallgatta a bádogtetőn kopogó esőcseppeket.
-en, raindrop
-hu, esőcseppek
-en, likely
-hu, valószínű
-en, The beetles are likely to cause damage
-hu, A bogarak valószínűleg kárt okoznak
-en, likely
-hu, valószínű
-en, crash down
-hu, lezúdul
-en, The waves crashed down against the rocky shoreline with a deafening roar
-hu, A hullámok fülsiketítő üvöltéssel csapódtak le a sziklás partvonalnak
-en, crash down
-hu, lezúdul
-en, knock down
-hu, lerombol
-en, She was knocked down by a bus
-hu, Leütötte egy busz
-en, He knocked his opponent down three times in the first round.
-hu, Az első menetben háromszor kiütötte ellenfelét.
-en, knock down
-hu, lerombol
-en, carry away
-hu, magával visz
-en, The wind was so strong it threatened to carry away the picnic table.
-hu, A szél olyan erős volt, hogy a piknikasztal elhordásával fenyegetett.
-en, carry away
-hu, magával visz
-en, destroy
-hu, pusztit, rombol
-en, landslide
-hu, földcsuszamlás
-en, The house was buried beneath a landslide
-hu, A házat földcsuszamlás temette el
-en, landslide
-hu, földcsuszamlás
-en, drought
-hu, aszály szárazság
-en, Farmers are facing ruin after two years of severe drought
-hu, A gazdálkodók tönkremennek a két év súlyos aszály után
-en, drought
-hu, aszály szárazság
-en, tidal wave
-hu, nagy hullám
-en, famine
-hu, éhinség
-en, peak
-hu, csúcs
-en, measure
-hu, mér
-en, fault lines
-hu, törésvonal
-en, magnitude
-hu, magasság nagyság
-en, width
-hu, szélesség
-en, aftershock
-hu, utórengés
-en, as for
-hu, ami azt illeti
-en, casuality 
-hu, veszteség
-en, crust
-hu, földkéreg
-en, havoc 
-hu, katasztrófa
-en, organization
-hu, szervezet
-en, ranger
-hu, vadőr
-en, warning
-hu, figyelmeztetés
-en, play havoc
-hu, pusztítást végez
-en, wreck
-hu, rombol
-en, humble
-hu, alázatos
-en, red cross
-hu, vörös kereszt
-en, autherity
-hu, hatóság
-en, issue
-hu, megjelentet
-en, a report issued by the Department for Education
-hu, az Oktatási Minisztérium által kiadott jelentés
-en, issue
-hu, megjelentet
+en, Carcass
+hu, Tetem
+en, There was a carcass of a rabbit on the road.
+hu, Egy nyúl teteme volt az úton.
+en, Captivity 
+hu,  Fogság
+en, Some endangered species are raised in captivity.
+hu, Néhány veszélyeztetett fajt fogságban nevelnek.)
+en, Interference 
+hu, Beavatkozás, közbeavatkozás
+en, Human interference has led to the extinction of many animals.
+hu, Az emberi beavatkozás sok állat kihalásához vezetett.
+en, Be in deep water 
+hu, Nagy bajban lenni
+en, She was in deep water after she crashed her dad’s car.
+hu, Nagy bajban volt, miután összetörte az apja autóját.
+en, A ray of sunshine 
+hu, A társaság napfénye, vidámság forrása
+en, Betty is a ray of sunshine and always cheers us up.
+hu, Betty igazi napsugár, és mindig felvidít minket.
+en, As quick as lightning 
+hu,  Villámgyors
+en, His reaction was as quick as lightning.
+hu, A reakciója villámgyors volt.
+en, Have my head in the clouds 
+hu, Álmodozó, a fellegekben jár
+en, He always has his head in the clouds and never pays attention.
+hu, Mindig a fellegekben jár, és soha nem figyel oda.)
+en, Be down to earth 
+hu,  Józan, gyakorlatias
+en, She is very down to earth and always gives practical advice.
+hu, Nagyon gyakorlatias, és mindig hasznos tanácsokat ad.)
+en, Throw caution to the wind 
+hu,  Vakmerőnek lenni, nem törődni a veszéllyel
+en, He threw caution to the wind and invested all his money in stocks.
+hu, Vakmerő volt, és az összes pénzét részvényekbe fektette.)
+en, Go down a storm 
+hu,  Nagy sikert aratni
+en, The band’s new song went down a storm at the concert.
+hu, A zenekar új dala hatalmas sikert aratott a koncerten.)
+en, Blast 
+hu,  Robbanás / Hatalmas erejű szél / Nagyon jó dolog (szlengben)
+en, The explosion caused a powerful blast.
+hu, A robbanás hatalmas lökéshullámot okozott.)
+en, We had a blast at the party last night!
+hu, Nagyon jól szórakoztunk a buliban tegnap este!)
+en, Devastating 
+hu, Pusztító, lesújtó
+en, The devastating fire flattened the whole forest.
+hu, A pusztító tűz teljesen letarolta az egész erdőt.)
+en, Make out 
+hu,  Kivenni (amit mondanak) / Megérteni
+en, He spoke so quietly that I couldn’t make out what he was saying.
+hu, Olyan halkan beszélt, hogy nem tudtam kivenni, mit mond.)
+en, Dock 
+hu, – Kikötő  Dokkolni
+en, The ship docked at the harbor early in the morning.
+hu, A hajó kora reggel kikötött a kikötőben.)
+en, Go ashore 
+hu,  Partra szállni
+en, We went ashore to explore the island.
+hu, Partra szálltunk, hogy felfedezzük a szigetet.)
+en, Stroll 
+hu,  Sétálni
+en, We took a nice stroll along the beach.
+hu, Egy kellemes sétát tettünk a tengerparton.)
+en, Pour 
+hu,  Ömleni, kiönteni
+en, It started to pour just as we left the house.
+hu, Pont akkor kezdett el szakadni az eső, amikor elindultunk otthonról.)
+en, Crack 
+hu,  Repedés, Megragad, feltör
+en, There was a crack in the glass.
+hu, Egy repedés volt az üvegen.)
+en, Glance 
+hu,  Pillantás, rápillant
+en, She glanced at her watch and realized she was late.
+hu, Rápillantott az órájára, és rájött, hogy elkésett.)
+en, Twist 
+hu, Csavarás, kificamodás
+en, I twisted my ankle while running.
+hu, Kificamítottam a bokámat futás közben.)
+en, Catch a glimpse 
+hu,  Megpillantani valamit
+en, I caught a glimpse of the celebrity before he got into the car.
+hu, Egy pillanatra megpillantottam a hírességet, mielőtt beszállt az autóba.)
+en, Gaze 
+hu, Bámulni, szemlélni
+en, She gazed at the stars in the night sky.
+hu, A csillagokat bámulta az éjszakai égbolton.)
+en, Glare 
+hu,  Mereven nézni, ellenséges pillantás
+en, He glared at me angrily after I took his seat.
+hu, Dühösen rám meredt, miután elfoglaltam a helyét.)
+en, Notice 
+hu,  Észrevenni
+en, Did you notice the new painting in the living room?
+hu, Észrevetted az új festményt a nappaliban?)
+en, Stare 
+hu,  Bámulni
+en, It’s rude to stare at people.
+hu, Udvariatlanság bámulni az embereket.)
+en, Creep 
+hu,  Osonni, kúszni
+en, He crept into the room so no one would hear him.
+hu, Osonva ment be a szobába, hogy senki ne hallja meg.)
+en, Limp 
+hu,  Sántítani
+en, After the injury, he limped for weeks.
+hu, A sérülés után hetekig sántított.)
+en, March 
+hu,  Menetelni
+en, The soldiers marched through the city.
+hu, A katonák végigmeneteltek a városon.)
+en, Skip 
+hu,  Ugrálni, szökdécselni
+en, The little girl skipped happily down the street.
+hu, A kislány boldogan szökdécselt az utcán.)
+en, Data 
+hu,  Adatok
+en, The scientist analyzed the data from the experiment.
+hu, A tudós elemezte a kísérletből származó adatokat.)
+en, Forecast 
+hu,  Előrejelzés
+en, The weather forecast says it will rain tomorrow.
+hu, Az időjárás-előrejelzés szerint holnap esni fog.)
+en, Humidity 
+hu,  Páratartalom
+en, The humidity was so high that I was sweating just by standing outside.
+hu, A páratartalom olyan magas volt, hogy már attól izzadtam, hogy csak álltam kint.)
+en, Velocity 
+hu,  Sebesség
+en, The car reached a velocity of 200 km/h.
+hu, Az autó elérte a 200 km/h sebességet.)
+en, Plain 
+hu,  Síkság / Egyszerű, dísztelen
+en, The Great Plains of the USA are vast and open.
+hu, Az USA nagy síkságai hatalmasak és nyíltak.)
+en, Probe 
+hu,  Vizsgálat, szonda
+en, The scientists sent a probe to explore Mars.
+hu, A tudósok egy szondát küldtek Mars felfedezésére.)
+en, Attempt 
+hu,  Kísérlet, próbálkozás
+en, She made an attempt to climb the mountain.
+hu, Megpróbálta megmászni a hegyet.)
+en, Functional 
+hu,  Működőképes, funkcionális
+en, The machine is old but still functional.
+hu, A gép régi, de még mindig működőképes.)
+en, Oncoming 
+hu,  Közeledő
+en, He didn’t see the oncoming car.
+hu, Nem vette észre a közeledő autót.)
+en, Visual 
+hu,  Vizuális, látással kapcsolatos
+en, The presentation included a lot of visual aids.
+hu, Az előadás sok vizuális segítséget adott
