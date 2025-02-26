@@ -1,0 +1,112 @@
+en, Publisher   
+hu, Kiadó
+en, The publisher will soon release the new novel.
+hu, A könyvkiadó hamarosan megjelenteti az új regényt.
+en, Varied   
+hu, Változatos
+en, The program covers varied topics, so everyone can find something interesting.
+hu, A műsor változatos témákat ölel fel, így mindenki talál benne érdekességet.
+en, Self-employed   
+hu, Önálló vállalkozó
+en, As a self-employed person, I can manage my time flexibly.
+hu, Önálló vállalkozóként rugalmasan oszthatom be az időmet.
+en, Commit   
+hu, Elköteleződik, elkövet
+en, I have committed to reading at least one hour every day.
+hu, Elköteleztem magam, hogy minden nap legalább egy órát olvasok.
+en, Reaction   
+hu, Reakció
+en, The audience’s reaction to the movie was very positive.
+hu, A közönség reakciója a filmre nagyon pozitív volt.
+en, Manuscript   
+hu, Kézirat
+en, My manuscript submitted to the publisher was accepted for publication.
+hu, A kiadóhoz beküldött kéziratomat elfogadták megjelentetésre.
+en, Subscription   
+hu, Előfizetés
+en, I have a monthly subscription to a science magazine.
+hu, Havi előfizetésem van egy tudományos magazinra.
+en, Nature preserve   
+hu, Természetvédelmi terület
+en, Rare bird species live in the nature preserve.
+hu, A természetvédelmi területen ritka madárfajok élnek.
+en, Feature   
+hu, Kiemelt cikk, különleges tulajdonság
+en, One of the main features of the new phone is its high-resolution camera.
+hu, Az új telefon egyik fő tulajdonsága a nagy felbontású kamera.
+en, Accurate   
+hu, Pontos, precíz
+en, The map is very accurate, so we can easily find our destination.
+hu, A térkép nagyon pontos, így könnyen megtaláljuk az úticélt.
+en, Bring round   
+hu, Magához térít, meggyőz
+en, The cold water quickly brought the fainted athlete round.
+hu, A hideg víz gyorsan magához térítette az elájult sportolót.
+en, Ring back   
+hu, Visszahív
+en, I can’t talk right now, but I’ll ring you back later.
+hu, Most nem tudok beszélni, de később visszahívlak.
+en, Ring in   
+hu, Bejelent, betelefonál
+en, Listeners can ring in to the radio show with their questions.
+hu, A hallgatók betelefonálhatnak a rádióműsorba kérdéseikkel.
+en, Tune in   
+hu, Ráhangolódik, bekapcsol egy műsort
+en, Don’t forget to tune in to your favorite radio station tonight!
+hu, Ne felejts el ráhangolódni este a kedvenc rádióadódra!
+en, Tune out   
+hu, Nem figyel oda, kikapcsol
+en, Some students completely tuned out during the boring lecture.
+hu, A diákok egy része teljesen kikapcsolt az unalmas előadás alatt.
+en, Convince   
+hu, Meggyőz
+en, I managed to convince my friend to join us on the trip.
+hu, Sikerült meggyőznöm a barátomat, hogy jöjjön velünk a kirándulásra.
+en, Aspect   
+hu, Szemszög, aspektus
+en, The problem needs to be examined from multiple aspects.
+hu, A problémát több aspektusból kell megvizsgálni.
+en, Footage   
+hu, Filmfelvétel
+en, The news broadcast showed exclusive footage from the scene.
+hu, A híradó exkluzív filmfelvételeket mutatott a helyszínről.
+en, Press pass   
+hu, Sajtóigazolvány
+en, The journalist was able to enter the event with his press pass.
+hu, A sajtóigazolvány segítségével az újságíró bejuthatott az eseményre.
+en, Arrest   
+hu, Letartóztatás
+en, The police arrested the suspect.
+hu, A rendőrség letartóztatta a gyanúsítottat.
+en, Intriguing   
+hu, Érdekes, izgalmas
+en, The story of the book is incredibly intriguing and mysterious.
+hu, A könyv története rendkívül izgalmas és rejtélyes.
+en, Annually   
+hu, Évente
+en, This event is held annually.
+hu, Ez az esemény évente megrendezésre kerül.
+en, Motion picture   
+hu, Mozgókép, film
+en, The invention of motion pictures revolutionized the entertainment industry.
+hu, A mozgókép feltalálása forradalmasította a szórakoztatóipart.
+en, Talkie   
+hu, Hangosfilm
+en, After silent films, talkies were a huge breakthrough.
+hu, A némafilmek után a hangosfilmek óriási áttörést jelentettek.
+en, Succession   
+hu, Sorozat, egymásutániság
+en, The issue of royal succession sparked serious debates in the family.
+hu, A trónutódlás kérdése komoly vitákat szült a királyi családban.
+en, Fee   
+hu, Díj, költség
+en, The course participation fee is relatively high.
+hu, A tanfolyam részvételi díja viszonylag magas.
+en, Sophisticated   
+hu, Kifinomult, bonyolult
+en, The city’s newest restaurant offers very sophisticated dishes.
+hu, A város legújabb étterme nagyon kifinomult ételeket kínál.
+en, Beyond   
+hu, Túl, vmi mögött
+en, The view from the mountain peak was beyond all my expectations.
+hu, A kilátás a hegycsúcsról túlmutatott minden várakozásomon.

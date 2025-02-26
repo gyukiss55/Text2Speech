@@ -1,0 +1,146 @@
+en, When do we use a gerund?
+hu, Mikor használunk gerundot  -ing alakot ?
+en, gerund
+hu, A gerund egy ige -ing alakja, és sok esetben főnévként viselkedik. Az alábbi esetekben használjuk:
+en, After certain verbs
+hu, Bizonyos igék után
+en, Some verbs are always followed by a gerund.
+hu, Néhány ige után mindig gerund áll.
+en, Examples
+hu, Példák:
+en,  enjoy  
+hu, élvezni   
+en, I enjoy reading books.  
+hu, Szeretek könyveket olvasni. 
+en,  mind 
+hu,  bánni   
+en, Do you mind opening the window?  
+hu, Baj, ha kinyitod az ablakot? 
+en,  avoid  
+hu, elkerülni   
+en, He avoided talking about his past.  
+hu, Elkerülte, hogy a múltjáról beszéljen. 
+en,  finish  
+hu, befejezni   
+en, She finished writing the report.  
+hu, Befejezte a jelentés megírását. 
+en,  consider  
+hu, fontolgatni   
+en, We are considering moving to Spain.  
+hu, Fontolgatjuk, hogy Spanyolországba költözünk. 
+en, This is always followed by a gerund
+hu, Ezek után mindig gerund jön:
+en, admit, avoid, consider, delay, deny, enjoy, finish, imagine, mind, miss, postpone, practice, suggest, after, before, without, etc.
+hu, Elöljárószavak után   
+en, If a verb follows a preposition, it will always be a gerund
+hu, Ha egy ige elöljárószó után áll, akkor mindig gerund lesz.
+en, Examples
+hu, Példák:
+en, Before going to bed, I brush my teeth.  
+hu, Lefekvés előtt fogat mosok. 
+en, He left without saying goodbye.  
+hu, Elment anélkül, hogy elköszönt volna. 
+en, She is good at singing.  
+hu, Jó az éneklésben. 
+en, After noun phrases
+hu, Főnévi kifejezések után
+en, There is always a gerund after certain expressions
+hu, Bizonyos kifejezések után is mindig gerund áll.
+en, can’t help  
+hu, nem tudja megállni   
+en, I can’t help laughing.  
+hu, Nem bírom megállni, hogy nevessek. 
+en, be worth  
+hu, megéri   
+en, This book is worth reading.  
+hu, Ez a könyv megéri az olvasást. 
+en, it’s no use  
+hu, nincs értelme   
+en, It’s no use worrying.  
+hu, Nincs értelme aggódni. 
+en, If the verb is listed as subject or object
+hu, Ha az ige alanyként vagy tárgyként szerepel
+en, If a verb is the subject or object of a sentence, it is in the gerund form
+hu, Ha egy ige mondat alanya vagy tárgya, akkor gerund formában áll.
+en, Swimming is good for your health.  
+hu, Az úszás jót tesz az egészségnek. 
+en, I love watching movies.  
+hu, Szeretek filmeket nézni. 
+en, Infinitive
+hu, Mikor használunk infinitive-et  to + alapige ?
+en, The infinitive construction is used when we refer to the purpose, intention of the action or after certain verbs.
+hu, Az infinitive szerkezetet akkor használjuk, ha a cselekvés céljára, szándékára vagy egyes igék után utalunk.
+en, After certain verbs
+hu, Bizonyos igék után
+en, agree, decide, expect, hope, learn, need, offer, plan, promise, refuse, seem, want
+hu, Ezek után mindig infinitive áll:
+en, decide  
+hu, eldönteni   
+en, He decided to leave early.  
+hu, Úgy döntött, hogy korán elmegy. 
+en,  promise  
+hu, megígérni   
+en, She promised to help me.  
+hu, Megígérte, hogy segít. 
+en,  hope  
+hu, remélni   
+en, I hope to see you soon.  
+hu, Remélem, hamarosan látlak. 
+en,  want  
+hu, akarni   
+en, I want to learn English.  
+hu, Meg akarok tanulni angolul. 
+en, After adjectives
+hu, Melléknevek után
+en, If the verb comes after an adjective, it is used in the infinitive form.
+hu, Ha egy melléknév után áll az ige, akkor infinitive formában használjuk.
+en, Examples:
+hu, Példák:
+en,  It’s difficult to learn Japanese.  
+hu, Nehéz japánul tanulni. 
+en,  I’m happy to see you.  
+hu, Örülök, hogy látlak. 
+en,  She was surprised to hear the news.  
+hu, Meglepődött, hogy hallotta a hírt. 
+en, in order to, so as to
+hu, Cél kifejezésére   
+en, infinitive
+hu, Ha a mondatban cél van kifejezve, akkor infinitive-et használunk.
+en, She studies hard to pass the exam.  
+hu, Sokat tanul, hogy átmenjen a vizsgán. 
+en, He left early in order to catch the train.  
+hu, Korán elment, hogy elérje a vonatot. 
+en,  where, how, what, etc.  
+hu, Kérdőszavak után 
+en,  I don’t know what to do.  
+hu, Nem tudom, mit csináljak. 
+en, Can you show me how to use this app?  
+hu, Megmutatod, hogyan kell használni ezt az alkalmazást? 
+en, Words that can be followed by a GERUND or INFINITIVE, but with a different meaning
+hu, Szavak, amelyek után GERUND vagy INFINITIVE is állhat, de más jelentéssel
+en, There are verbs that can be followed by both a gerund and an infinitive, but their meaning may differ
+hu, Vannak olyan igék, amelyek után mind gerund, mind infinitive állhat, de a jelentésük eltérhet!
+en, I stopped smoking.  
+hu, Abbahagytam a dohányzást.   
+en, gerund   
+hu, végleg abbahagyta 
+en, I stopped to smoke.  
+hu, Abbahagytam a dohányzást.   
+en, infinitive   
+hu, megállt valamit csinálni 
+en, Try reading this book.  
+hu, Próbáld ki, hogy elolvasod ezt a könyvet!   
+en, experimentation
+hu, kísérletezés 
+en, Try to read this book.  
+hu, Próbáld meg elolvasni ezt a könyvet!   
+en, effort 
+hu, erőfeszítés 
+en, I remember meeting him last year.  
+hu, Emlékszem, hogy találkoztam vele tavaly.   
+en, remembers a past event
+hu, emlékszik egy múltbeli eseményre 
+en, Remember to lock the door.  
+hu, Ne felejtsd el bezárni az ajtót!   
+en, remember to do something   
+hu, emlékezz megtenni valamit 
