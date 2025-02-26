@@ -38,9 +38,10 @@ def generateMP3Files (textFileName, workFolderName) :
     with open(textFileName, 'r', encoding='utf-8') as file:
         content = file.read()
         lines = content.splitlines()
-        cnt = 1
+        cnt = 0
         
         for line in lines:
+            cnt = cnt + 1
             lang = line[0:2]
             txt = line[4:100]
             fn = f"{workFolderName}\\w_{cnt}_{lang}.mp3"
@@ -53,7 +54,7 @@ def generateMP3Files (textFileName, workFolderName) :
             # decode_string =  txt.decode('utf-8');
             
             mp3Write(workFolderName, cnt, lang, txt)
-            cnt = cnt + 1
+            
             
 def main():
     
